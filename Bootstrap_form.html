@@ -88,6 +88,14 @@
         <p style="display:inline">Click Count: <span id="click-count">(loading)</span></p>
       </div>
 
+
+
+      <div id="my-container">
+        <p id="my-message">some placeholder content</p>
+      </div>
+
+
+
       <!--
         BOOTSTRAP FORM
         https://getbootstrap.com/docs/5.0/forms/overview/
@@ -188,5 +196,15 @@
         console.log("Thanks for the page visit!")
 
     </script>
+
+<script type="text/javascript">
+
+    var myParagraph = document.getElementById("my-message")
+
+    console.log(myParagraph.innerText)
+
+</script>
+
+
   </body>
 </html>
